@@ -48,7 +48,7 @@ valgrind_afl_test <- function(){
 }
 
 
-//analyze valgrind log
+#analyze valgrind log
 cA.dir <- file.path(system.file("extdata",package="RcppDeepState"),"compileAttributes")
 root.path <- system.file("extdata",package="RcppDeepState")
 packages <- Sys.glob(file.path(cA.dir,"*"))
